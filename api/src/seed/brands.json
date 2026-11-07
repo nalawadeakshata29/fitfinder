@@ -1,0 +1,80 @@
+[
+  {
+    "name": "Zara", "slug": "zara", "country": "Spain",
+    "charts": [
+      {
+        "gender": "men", "category": "tops", "unit": "cm",
+        "source": "demo data - replace with official size guide",
+        "sizes": [
+          { "label": "S", "chest": [88, 94], "waist": [74, 80] },
+          { "label": "M", "chest": [94, 102], "waist": [80, 88] },
+          { "label": "L", "chest": [102, 110], "waist": [88, 96] },
+          { "label": "XL", "chest": [110, 118], "waist": [96, 104] }
+        ]
+      },
+      {
+        "gender": "women", "category": "tops", "unit": "cm",
+        "source": "demo data - replace with official size guide",
+        "sizes": [
+          { "label": "XS", "chest": [80, 84], "waist": [62, 66], "hips": [88, 92] },
+          { "label": "S", "chest": [84, 88], "waist": [66, 70], "hips": [92, 96] },
+          { "label": "M", "chest": [88, 94], "waist": [70, 76], "hips": [96, 102] },
+          { "label": "L", "chest": [94, 100], "waist": [76, 82], "hips": [102, 108] },
+          { "label": "XL", "chest": [100, 106], "waist": [82, 88], "hips": [108, 114] }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "H&M", "slug": "hm", "country": "Sweden",
+    "charts": [
+      {
+        "gender": "men", "category": "tops", "unit": "cm",
+        "source": "demo data - replace with official size guide",
+        "sizes": [
+          { "label": "S", "chest": [88, 92], "waist": [76, 80] },
+          { "label": "M", "chest": [92, 98], "waist": [80, 86] },
+          { "label": "L", "chest": [98, 104], "waist": [86, 92] },
+          { "label": "XL", "chest": [104, 110], "waist": [92, 98] }
+        ]
+      },
+      {
+        "gender": "women", "category": "tops", "unit": "cm",
+        "source": "demo data - replace with official size guide",
+        "sizes": [
+          { "label": "XS", "chest": [78, 82], "waist": [60, 64], "hips": [86, 90] },
+          { "label": "S", "chest": [82, 86], "waist": [64, 68], "hips": [90, 94] },
+          { "label": "M", "chest": [86, 92], "waist": [68, 74], "hips": [94, 100] },
+          { "label": "L", "chest": [92, 98], "waist": [74, 80], "hips": [100, 106] },
+          { "label": "XL", "chest": [98, 104], "waist": [80, 86], "hips": [106, 112] }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Levi's", "slug": "levis", "country": "USA",
+    "charts": [
+      {
+        "gender": "men", "category": "tops", "unit": "cm",
+        "source": "demo data - replace with official size guide",
+        "sizes": [
+          { "label": "S", "chest": [86, 91], "waist": [73, 78] },
+          { "label": "M", "chest": [91, 97], "waist": [78, 84] },
+          { "label": "L", "chest": [97, 104], "waist": [84, 91] },
+          { "label": "XL", "chest": [104, 112], "waist": [91, 99] }
+        ]
+      },
+      {
+        "gender": "women", "category": "tops", "unit": "cm",
+        "source": "demo data - replace with official size guide",
+        "sizes": [
+          { "label": "XS", "chest": [79, 83], "waist": [61, 65], "hips": [87, 91] },
+          { "label": "S", "chest": [83, 87], "waist": [65, 69], "hips": [91, 95] },
+          { "label": "M", "chest": [87, 93], "waist": [69, 75], "hips": [95, 101] },
+          { "label": "L", "chest": [93, 99], "waist": [75, 81], "hips": [101, 107] },
+          { "label": "XL", "chest": [99, 105], "waist": [81, 87], "hips": [107, 113] }
+        ]
+      }
+    ]
+  }
+]
