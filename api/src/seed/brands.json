@@ -1,80 +1,117 @@
 [
   {
-    "name": "Zara", "slug": "zara", "country": "Spain",
-    "charts": [
-      {
-        "gender": "men", "category": "tops", "unit": "cm",
-        "source": "demo data - replace with official size guide",
-        "sizes": [
-          { "label": "S", "chest": [88, 94], "waist": [74, 80] },
-          { "label": "M", "chest": [94, 102], "waist": [80, 88] },
-          { "label": "L", "chest": [102, 110], "waist": [88, 96] },
-          { "label": "XL", "chest": [110, 118], "waist": [96, 104] }
-        ]
-      },
-      {
-        "gender": "women", "category": "tops", "unit": "cm",
-        "source": "demo data - replace with official size guide",
-        "sizes": [
-          { "label": "XS", "chest": [80, 84], "waist": [62, 66], "hips": [88, 92] },
-          { "label": "S", "chest": [84, 88], "waist": [66, 70], "hips": [92, 96] },
-          { "label": "M", "chest": [88, 94], "waist": [70, 76], "hips": [96, 102] },
-          { "label": "L", "chest": [94, 100], "waist": [76, 82], "hips": [102, 108] },
-          { "label": "XL", "chest": [100, 106], "waist": [82, 88], "hips": [108, 114] }
-        ]
-      }
-    ]
+    "name": "Allen Solly", "slug": "allen-solly", "country": "India",
+    "charts": [{
+      "gender": "women", "category": "tops", "unit": "cm", "measurementType": "garment",
+      "source": "Myntra size chart, women's top (garment measurements)",
+      "sourceUrl": "https://www.myntra.com/tops/allen+solly+woman/allen-solly-vertical-striped-v-neck-top/29574650/buy",
+      "retrievedAt": "2026-11-08",
+      "sizes": [
+        { "label": "XS", "chest": [87.6, 87.6] },
+        { "label": "S", "chest": [91.4, 91.4] },
+        { "label": "M", "chest": [96.5, 96.5] },
+        { "label": "L", "chest": [101.6, 101.6] },
+        { "label": "XL", "chest": [108.0, 108.0] },
+        { "label": "XXL", "chest": [114.3, 114.3] }
+      ]
+    }]
+  },
+  {
+    "name": "Max Fashion", "slug": "max-fashion", "country": "India",
+    "charts": [{
+      "gender": "women", "category": "tops", "unit": "cm", "measurementType": "garment",
+      "source": "Myntra size chart, women's top (garment measurements)",
+      "sourceUrl": "https://www.myntra.com/tops/max/max-cotton-blend-top/45531583/buy",
+      "retrievedAt": "2026-11-08",
+      "sizes": [
+        { "label": "XS", "chest": [76.2, 76.2] },
+        { "label": "S", "chest": [81.3, 81.3] },
+        { "label": "M", "chest": [86.4, 86.4] },
+        { "label": "L", "chest": [91.4, 91.4] },
+        { "label": "XL", "chest": [96.5, 96.5] }
+      ]
+    }]
+  },
+  {
+    "name": "Nike", "slug": "nike", "country": "USA",
+    "charts": [{
+      "gender": "women", "category": "tops", "unit": "cm", "measurementType": "garment",
+      "source": "Myntra size chart, women's top (garment measurements)",
+      "sourceUrl": "https://www.myntra.com/tops/nike/nike-top/47420238/buy",
+      "retrievedAt": "2026-11-08",
+      "sizes": [
+        { "label": "XS", "chest": [81.3, 81.3] },
+        { "label": "S", "chest": [86.4, 86.4] },
+        { "label": "M", "chest": [91.4, 91.4] },
+        { "label": "L", "chest": [96.5, 96.5] },
+        { "label": "XL", "chest": [101.6, 101.6] }
+      ]
+    }]
+  },
+  {
+    "name": "Biba", "slug": "biba", "country": "India",
+    "charts": [{
+      "gender": "women", "category": "tops", "unit": "cm", "measurementType": "body",
+      "source": "Myntra size chart, women's kurta (to-fit bust and hip)",
+      "sourceUrl": "https://www.myntra.com/kurtas/biba/biba-ethnic-motifs-printed-straight-kurta/31981022/buy",
+      "retrievedAt": "2026-11-08",
+      "sizes": [
+        { "label": "S", "chest": [81.3, 81.3], "hips": [91.4, 91.4] },
+        { "label": "M", "chest": [86.4, 86.4], "hips": [96.5, 96.5] },
+        { "label": "L", "chest": [91.4, 91.4], "hips": [101.6, 101.6] },
+        { "label": "XL", "chest": [96.5, 96.5], "hips": [106.7, 106.7] },
+        { "label": "XXL", "chest": [101.6, 101.6], "hips": [111.8, 111.8] },
+        { "label": "3XL", "chest": [106.7, 106.7], "hips": [119.4, 119.4] },
+        { "label": "4XL", "chest": [116.8, 116.8], "hips": [129.5, 129.5] }
+      ]
+    }]
   },
   {
     "name": "H&M", "slug": "hm", "country": "Sweden",
-    "charts": [
-      {
-        "gender": "men", "category": "tops", "unit": "cm",
-        "source": "demo data - replace with official size guide",
-        "sizes": [
-          { "label": "S", "chest": [88, 92], "waist": [76, 80] },
-          { "label": "M", "chest": [92, 98], "waist": [80, 86] },
-          { "label": "L", "chest": [98, 104], "waist": [86, 92] },
-          { "label": "XL", "chest": [104, 110], "waist": [92, 98] }
-        ]
-      },
-      {
-        "gender": "women", "category": "tops", "unit": "cm",
-        "source": "demo data - replace with official size guide",
-        "sizes": [
-          { "label": "XS", "chest": [78, 82], "waist": [60, 64], "hips": [86, 90] },
-          { "label": "S", "chest": [82, 86], "waist": [64, 68], "hips": [90, 94] },
-          { "label": "M", "chest": [86, 92], "waist": [68, 74], "hips": [94, 100] },
-          { "label": "L", "chest": [92, 98], "waist": [74, 80], "hips": [100, 106] },
-          { "label": "XL", "chest": [98, 104], "waist": [80, 86], "hips": [106, 112] }
-        ]
-      }
-    ]
+    "charts": [{
+      "gender": "women", "category": "tops", "unit": "cm", "measurementType": "body",
+      "source": "Myntra size chart, women's top (to-fit measurements)",
+      "sourceUrl": "https://www.myntra.com/tops/h%26m/hm-stand-collar-ponte-di-roma-top/43932718/buy",
+      "retrievedAt": "2026-11-08",
+      "sizes": [
+        { "label": "XS", "chest": [82.0, 82.0], "waist": [63.5, 63.5] },
+        { "label": "S", "chest": [87.6, 87.6], "waist": [72.4, 72.4] },
+        { "label": "M", "chest": [95.5, 95.5], "waist": [80.0, 80.0] },
+        { "label": "L", "chest": [105.4, 105.4], "waist": [87.6, 87.6] },
+        { "label": "XL", "chest": [111.8, 111.8], "waist": [99.8, 99.8] }
+      ]
+    }]
   },
   {
     "name": "Levi's", "slug": "levis", "country": "USA",
-    "charts": [
-      {
-        "gender": "men", "category": "tops", "unit": "cm",
-        "source": "demo data - replace with official size guide",
-        "sizes": [
-          { "label": "S", "chest": [86, 91], "waist": [73, 78] },
-          { "label": "M", "chest": [91, 97], "waist": [78, 84] },
-          { "label": "L", "chest": [97, 104], "waist": [84, 91] },
-          { "label": "XL", "chest": [104, 112], "waist": [91, 99] }
-        ]
-      },
-      {
-        "gender": "women", "category": "tops", "unit": "cm",
-        "source": "demo data - replace with official size guide",
-        "sizes": [
-          { "label": "XS", "chest": [79, 83], "waist": [61, 65], "hips": [87, 91] },
-          { "label": "S", "chest": [83, 87], "waist": [65, 69], "hips": [91, 95] },
-          { "label": "M", "chest": [87, 93], "waist": [69, 75], "hips": [95, 101] },
-          { "label": "L", "chest": [93, 99], "waist": [75, 81], "hips": [101, 107] },
-          { "label": "XL", "chest": [99, 105], "waist": [81, 87], "hips": [107, 113] }
-        ]
-      }
-    ]
+    "charts": [{
+      "gender": "women", "category": "tops", "unit": "cm", "measurementType": "garment",
+      "source": "Myntra size chart, women's top (garment measurements)",
+      "sourceUrl": "https://www.myntra.com/tops/levis/levis-shoulder-straps-pure-cotton-denim-top/38810735/buy",
+      "retrievedAt": "2026-11-08",
+      "sizes": [
+        { "label": "XS", "chest": [87.6, 87.6] },
+        { "label": "S", "chest": [92.7, 92.7] },
+        { "label": "M", "chest": [97.8, 97.8] },
+        { "label": "L", "chest": [104.1, 104.1] },
+        { "label": "XL", "chest": [111.8, 111.8] }
+      ]
+    }]
+  },
+  {
+    "name": "Vero Moda", "slug": "vero-moda", "country": "Denmark",
+    "charts": [{
+      "gender": "women", "category": "tops", "unit": "cm", "measurementType": "body",
+      "source": "Myntra size chart, women's top (to-fit bust and waist)",
+      "sourceUrl": "https://www.myntra.com/tops/vero+moda/vero-moda-top/42916575/buy",
+      "retrievedAt": "2026-11-08",
+      "sizes": [
+        { "label": "XS", "chest": [83.8, 83.8], "waist": [63.5, 63.5] },
+        { "label": "S", "chest": [87.6, 87.6], "waist": [67.3, 67.3] },
+        { "label": "M", "chest": [91.4, 91.4], "waist": [71.1, 71.1] },
+        { "label": "L", "chest": [99.1, 99.1], "waist": [78.7, 78.7] },
+        { "label": "XL", "chest": [104.1, 104.1], "waist": [85.1, 85.1] }
+      ]
+    }]
   }
 ]
