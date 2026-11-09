@@ -27,9 +27,10 @@ const sizeChartSchema = new mongoose.Schema(
     category: { type: String, required: true },
     unit: { type: String, default: 'cm' },
         sizes: [sizeSchema],
-    source: String,
+        source: String,
     sourceUrl: String,
     retrievedAt: Date,
+    measurementType: { type: String, enum: ['body', 'garment'], default: 'body' },
   },
   { timestamps: true }
 );

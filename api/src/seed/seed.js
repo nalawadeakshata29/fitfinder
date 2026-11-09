@@ -36,11 +36,12 @@ async function seed() {
 
     // 2. Save each of its charts, linked to the brand by brandId
     for (const chart of b.charts) {
-      await SizeChart.create({
+            await SizeChart.create({
         brandId: brand._id,
         gender: chart.gender,
         category: chart.category,
         unit: chart.unit,
+        measurementType: chart.measurementType,
         source: chart.source,
         sourceUrl: chart.sourceUrl,
         retrievedAt: chart.retrievedAt,
