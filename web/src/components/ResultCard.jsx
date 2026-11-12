@@ -1,11 +1,20 @@
 export default function ResultCard({ result }) {
+  const chartLabel = result.chartType === 'garment' ? 'Garment chart' : 'Body chart';
+  const confidenceClass = result.confidence || 'medium';
+
   return (
-    <div className="card">
-      <div className="brand">{result.brand}</div>
-      <div className="size">{result.size}</div>
-      <span className={`badge ${result.confidence}`}>{result.confidence} confidence</span>
-      {result.note && <div className="note">{result.note}</div>}
-      <div className="type">{result.chartType === 'garment' ? 'Garment chart' : 'Body chart'}</div>
-    </div>
+    <article className="card result-card">
+      <div className="card-top">
+        <h3 className="brand">{result.brand}</h3>
+        <span className={`badge ${confidenceClass}`} aria-label={`${confidenceClass} confidence`}>
+          {confidenceClass}
+        </span>
+      </div>
+      <div className="size" aria-label={`Size ${result.size}`}>
+        {result.size}
+      </div>
+      {result.note ? <p className="note">{result.note}</p> : null}
+      <div className="type">{chartLabel}</div>
+    </article>
   );
 }
