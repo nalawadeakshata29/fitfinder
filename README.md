@@ -4,7 +4,7 @@
 
 ![CI](https://github.com/nalawadeakshata29/fitfinder/actions/workflows/ci.yml/badge.svg)
 
-**Live app:** <your Vercel URL> | **API docs:** <your Render URL>/docs
+**Live app:** [fitfinder-omega.vercel.app](https://fitfinder-omega.vercel.app) | **API docs:** [Swagger](https://fitfinder-7lt6.onrender.com/docs)
 
 > The API runs on a free host that sleeps when idle, so the first request can be slow.
 
@@ -49,7 +49,7 @@ React (Vite) · Node.js · Express · MongoDB Atlas · Mongoose · Jest · Swagg
 
 ## API
 
-Interactive docs: `<your Render URL>/docs`
+Interactive docs: [https://fitfinder-7lt6.onrender.com/docs](https://fitfinder-7lt6.onrender.com/docs)
 
 | Method | Endpoint | Description |
 |---|---|---|
@@ -61,7 +61,7 @@ Interactive docs: `<your Render URL>/docs`
 **Example**
 
 ```bash
-curl -X POST <your Render URL>/api/v1/recommend \
+curl -X POST https://fitfinder-7lt6.onrender.com/api/v1/recommend \
   -H "Content-Type: application/json" \
   -d '{"bust": 89, "waist": 70, "fit": "regular"}'
 ```
