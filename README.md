@@ -47,8 +47,6 @@ React (Vite) · Node.js · Express · MongoDB Atlas · Mongoose · Jest · Swagg
 
 ## API
 
-Interactive docs: [https://fitfinder-7lt6.onrender.com/docs](https://fitfinder-7lt6.onrender.com/docs)
-
 | Method | Endpoint | Description |
 |---|---|---|
 | GET | `/health` | Health check |
