@@ -2,13 +2,11 @@
 
 **Find your size in every brand.** A medium in one store is a small in another. FitFinder takes your measurements once and shows your recommended size across 7 brands, with a confidence level for each.
 
-![CI](https://github.com/nalawadeakshata29/fitfinder/actions/workflows/ci.yml/badge.svg)
 
-**Live app:** [fitfinder-omega.vercel.app](https://fitfinder-omega.vercel.app) | **API docs:** [Swagger](https://fitfinder-7lt6.onrender.com/docs)
+**Live app:** [fitfinder-omega.vercel.app](https://fitfinder-omega.vercel.app)
 
 > The API runs on a free host that sleeps when idle, so the first request can be slow.
 
-![FitFinder results](docs/screenshot-cards.png)
 
 ## Features
 
